@@ -1,0 +1,25 @@
+{
+  "name": "vimeo.com_cameo_tests",
+  "version": "1.0.0",
+  "description": "tests for vimeo.com/cameo",
+  "main": "index.js",
+  "scripts": {
+    "update": "webdriver-manager update --versions.chrome 2.33",
+    "e2e": "protractor config/mailnpm/protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiyaKavalionak/cameo.git"
+  },
+  "keywords": ["vimeo.com", "cameo"],
+  "author": "Anastasiya Kavalionak",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-files": "^1.4.0",
+    "cucumber": "^3.1.0",
+    "protractor": "^5.*",
+    "protractor-cucumber-framework": "^4.1.1"
+  }
+}
