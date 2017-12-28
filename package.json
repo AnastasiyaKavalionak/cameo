@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "update": "webdriver-manager update --versions.chrome 2.33",
-    "e2e": "protractor config/mailnpm/protractor.config.js"
+    "e2e": "protractor config/protractor.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AnastasiyaKavalionak/cameo.git"
   },
-  "keywords": ["vimeo.com", "cameo"],
+  "keywords": [
+    "vimeo.com",
+    "cameo"
+  ],
   "author": "Anastasiya Kavalionak",
   "license": "ISC",
   "devDependencies": {

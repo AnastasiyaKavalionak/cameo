@@ -29,7 +29,7 @@ exports.config = {
         global.EC = protractor.ExpectedConditions;
         global.timeoutEveryStep = 100 * 1000;
         global.defTimeoutExplicit = 15000;
-        browser.waitForAngularEnabled(true);
+        browser.waitForAngularEnabled(false);
         browser.angularAppRoot('body');
     },
     cucumberOpts: {
